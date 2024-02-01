@@ -21,4 +21,10 @@ df2 = pd.DataFrame([
     'Store ID', 'Location', 'Number of Employees'
   ])
 
+# create a variable first
+access_location = df2.Location # access a column from our data frame
+
+
 print(df2)
+
+print(type(df2)) # <class 'pandas.core.series.Series'>
